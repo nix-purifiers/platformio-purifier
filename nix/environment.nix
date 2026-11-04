@@ -9,6 +9,7 @@
   sdkVersion,
   core,
   debugger,
+  analyzer,
   autoPatchelfHook,
   stdenv,
   ...
@@ -57,10 +58,16 @@ let
         if [ -f "$out/packages/toolchain-atmelavr/bin/avr-gdb" ]; then
           rm "$out/packages/toolchain-atmelavr/bin/avr-gdb"
         fi
+        if [ -f "$out/packages/tool-cppcheck/cppcheck" ]; then
+          rm "$out/packages/tool-cppcheck/cppcheck"
+        fi
         patchShebangs "$out"
         autoPatchelf "$out"
         if [ -d "$out/packages/toolchain-atmelavr/bin" ]; then
           ln -s ${lib.getExe debugger} "$out/packages/toolchain-atmelavr/bin/avr-gdb"
+        fi
+        if [ -d "$out/packages/tool-cppcheck" ]; then
+          ln -s ${lib.getExe analyzer} "$out/packages/tool-cppcheck/cppcheck"
         fi
       '';
   output =
@@ -69,6 +76,10 @@ let
         inherit packages;
         sdk = lock.data.sdk;
         selection = lock.selected.selection;
+        providers.cppcheck = {
+          package = "nixpkgs.cppcheck";
+          version = analyzer.version;
+        };
         providers.avrDebugger = {
           package = "nixpkgs.gdb";
           version = debugger.version;

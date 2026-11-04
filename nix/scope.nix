@@ -12,12 +12,14 @@ pkgs.lib.makeScope pkgs.newScope (scope: {
     '';
   });
   debugger = pkgs.gdb;
+  analyzer = pkgs.cppcheck;
   purifier = import (purifierSrc + "/nix/lib") { inherit (pkgs) lib; };
   sdkVersion = builtins.hashString "sha256" (
     builtins.toJSON {
       nixpkgs = toString nixpkgsSrc;
       platformio = toString scope.original.src;
       debugger = toString scope.debugger.src;
+      analyzer = toString scope.analyzer.src;
       patch = builtins.hashFile "sha256" ../native/patch-core.py;
       helper = builtins.hashFile "sha256" ../native/platformio_purifier_native.py;
       resolver = builtins.hashFile "sha256" ../native/resolve.py;

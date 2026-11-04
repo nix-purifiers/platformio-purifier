@@ -79,6 +79,7 @@ with tempfile.TemporaryDirectory(prefix="platformio proof with spaces ") as temp
     packages = Path(manifest["packages"])
     assert not packages.stat().st_mode & 0o222
     assert manifest["providers"]["avrDebugger"]["package"] == "nixpkgs.gdb"
+    assert manifest["providers"]["cppcheck"]["package"] == "nixpkgs.cppcheck"
     persistent = profile.parent / "session/cache/preserve"
     persistent.parent.mkdir(parents=True, exist_ok=True)
     persistent.write_text("private state")

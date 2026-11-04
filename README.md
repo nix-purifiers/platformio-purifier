@@ -72,7 +72,8 @@ exact archive to an existing GitHub release.
 The initial provider supports public registry and HTTPS archive packages for
 Arduino AVR projects on Linux x86-64 and ARM64. The SDK patches host executable
 loaders for Nix. It supplies Nixpkgs' all-target GDB in place of the old bundled
-AVR debugger; that provider and version are recorded in the environment metadata.
+AVR debugger, and Nixpkgs cppcheck replaces the registry analyzer that crashes
+on ARM64. These providers and versions are recorded in the environment metadata.
 
 Native resolution, firmware compilation, Unity test-firmware compilation, and
 firmware inspection are tested without a board. Physical uploads and on-device

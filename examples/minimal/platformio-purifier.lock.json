@@ -1,6 +1,6 @@
 {
   "purifier": "platformio",
-  "sdk": "5373fad707adc182af3ec9450893276b0748503ff0c563e2194e4ee6530bf403",
+  "sdk": "81800f67b451c6b889d1dc09f80420ca1517ff939a57aa6e45a5e3ef6bfaaca4",
   "systems": {
     "aarch64-linux": {
       "entries": [

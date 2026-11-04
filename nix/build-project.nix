@@ -9,6 +9,7 @@
   sdkVersion,
   core,
   debugger,
+  analyzer,
   autoPatchelfHook,
   stdenv,
   gnutar,
