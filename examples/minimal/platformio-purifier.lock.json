@@ -1,0 +1,501 @@
+{
+  "purifier": "platformio",
+  "sdk": "5373fad707adc182af3ec9450893276b0748503ff0c563e2194e4ee6530bf403",
+  "systems": {
+    "aarch64-linux": {
+      "entries": [
+        {
+          "hash": "sha256-QGFGCBylhP+jAmQjXycFIbEzXWnXt2CAfGUOUCwyOGI=",
+          "mirrors": [],
+          "path": "archive-0",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "Adafruit BusIO",
+              "spec": {
+                "id": 6214,
+                "name": "Adafruit BusIO",
+                "owner": "adafruit",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "1.17.4"
+            },
+            "name": "Adafruit BusIO"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/b8/cd/8fe6bdeda34f4e7a731334b507f135bbea81443a6e72a887342ab7ce6f13/AdafruitBusIO-1.17.4.tar.gz"
+        },
+        {
+          "hash": "sha256-mAGYXiTQmbuB4nFW8iRtLcZiqyITq6lmaONzVilWc1c=",
+          "mirrors": [],
+          "path": "archive-1",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "Adafruit GFX Library",
+              "spec": {
+                "id": 13,
+                "name": "Adafruit GFX Library",
+                "owner": "adafruit",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "1.12.4"
+            },
+            "name": "Adafruit GFX Library"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/38/e6/15253e7474251a03fd529d36172faeb3960860addde32d099f4e05f28911/AdafruitGFXLibrary-1.12.4.tar.gz"
+        },
+        {
+          "hash": "sha256-WmphKSczo2XpOEzmo9Ydvt9xJagUsUJKNBfjE13CUZA=",
+          "mirrors": [],
+          "path": "archive-2",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "ArduinoJson",
+              "spec": {
+                "id": 64,
+                "name": "ArduinoJson",
+                "owner": "bblanchon",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "7.4.3"
+            },
+            "name": "ArduinoJson"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/26/b0/41b27c1a11f4f08e266e0698d06a85e46de5a7c3553fb8a33bde0f8c4790/ArduinoJson-7.4.3.tar.gz"
+        },
+        {
+          "hash": "sha256-103EZoKiqdb9cpWQXmUR3OF3cUFjbzs7Qi5eOVjS1hA=",
+          "mirrors": [],
+          "path": "archive-3",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "Unity",
+              "spec": {
+                "id": 13894,
+                "name": "Unity",
+                "owner": "throwtheswitch",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "2.6.1"
+            },
+            "name": "Unity"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/41/fc/ed473e23c0d4373e199e254eff6f16c6b5de23f852719bd7f22fd427e2f7/Unity-2.6.1.tar.gz"
+        },
+        {
+          "hash": "sha256-QjfxziiN7YzhQTZru7vpbm/a6rn2caImonmTj4HBOB0=",
+          "mirrors": [],
+          "path": "archive-4",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "framework-arduino-avr",
+              "spec": {
+                "id": 8039,
+                "name": "framework-arduino-avr",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "5.3.0"
+            },
+            "name": "framework-arduino-avr"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/framework-arduino-avr/739202e-framework-arduino-avr-5.3.0.tar.gz"
+        },
+        {
+          "hash": "sha256-DWFV4ZFds9XvNxZ1gfeu2ceU62FSm9bGzDhoqwxWXk4=",
+          "mirrors": [],
+          "path": "archive-5",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "tool-avrdude",
+              "spec": {
+                "id": 8147,
+                "name": "tool-avrdude",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "1.60300.200527"
+            },
+            "name": "tool-avrdude"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/tool-avrdude-linux_aarch64/1f70bee-tool-avrdude-linux_aarch64-1.60300.200527.tar.gz"
+        },
+        {
+          "hash": "sha256-QvWTwNppF6tuVFFCgOxPRm3wI1+tbbQoLoHlbyrx4h0=",
+          "mirrors": [],
+          "path": "archive-6",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "tool-cppcheck",
+              "spec": {
+                "id": 8153,
+                "name": "tool-cppcheck",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "1.21100.230717"
+            },
+            "name": "tool-cppcheck"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/tool-cppcheck-linux_aarch64/a72ebc1-tool-cppcheck-linux_aarch64-1.21100.230717.tar.gz"
+        },
+        {
+          "hash": "sha256-5AXeH80zB/qA1iTwKQx80w+7R/Z+E1qfVtfka2uJUxE=",
+          "mirrors": [],
+          "path": "archive-7",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "tool-scons",
+              "spec": {
+                "id": 8192,
+                "name": "tool-scons",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "4.41101.0"
+            },
+            "name": "tool-scons"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/tool-scons/14073c2-tool-scons-4.41101.0.tar.gz"
+        },
+        {
+          "hash": "sha256-N/UfxyaclS175uiH9lyyYw9yeO5c7LwZ4CAD2JXp0zQ=",
+          "mirrors": [],
+          "path": "archive-8",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "toolchain-atmelavr",
+              "spec": {
+                "id": 8203,
+                "name": "toolchain-atmelavr",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "1.70300.191015"
+            },
+            "name": "toolchain-atmelavr"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/toolchain-atmelavr-linux_aarch64/8c4a53d-toolchain-atmelavr-linux_aarch64-1.70300.191015.tar.gz"
+        },
+        {
+          "hash": "sha256-lRTIqpVYnaO+bbgAUTXzKyligyBwlChtMntqLEnFjZ0=",
+          "mirrors": [],
+          "path": "archive-9",
+          "platformio": {
+            "directory": "platforms",
+            "metadata": {
+              "name": "atmelavr",
+              "spec": {
+                "id": 8006,
+                "name": "atmelavr",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "platform",
+              "version": "5.2.0"
+            },
+            "name": "atmelavr"
+          },
+          "url": "https://dl.registry.platformio.org/platforms/7f/e5/97d6bcd93132059614db0d9fdbffe89acc7fb7eaca9adb1dcb4187395162/atmelavr-5.2.0.tar.gz"
+        }
+      ],
+      "selection": {
+        "uno": {
+          "board": "uno",
+          "check_tool": [
+            "cppcheck"
+          ],
+          "debug_tool": null,
+          "framework": [
+            "arduino"
+          ],
+          "lib_compat_mode": "soft",
+          "lib_deps": [
+            "bblanchon/ArduinoJson@7.4.3",
+            "adafruit/Adafruit GFX Library@1.12.4"
+          ],
+          "lib_ignore": [],
+          "lib_ldf_mode": "chain",
+          "platform": "atmelavr@5.2.0",
+          "platform_packages": [],
+          "test_framework": "unity",
+          "upload_protocol": null
+        }
+      }
+    },
+    "x86_64-linux": {
+      "entries": [
+        {
+          "hash": "sha256-QGFGCBylhP+jAmQjXycFIbEzXWnXt2CAfGUOUCwyOGI=",
+          "mirrors": [],
+          "path": "archive-0",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "Adafruit BusIO",
+              "spec": {
+                "id": 6214,
+                "name": "Adafruit BusIO",
+                "owner": "adafruit",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "1.17.4"
+            },
+            "name": "Adafruit BusIO"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/b8/cd/8fe6bdeda34f4e7a731334b507f135bbea81443a6e72a887342ab7ce6f13/AdafruitBusIO-1.17.4.tar.gz"
+        },
+        {
+          "hash": "sha256-mAGYXiTQmbuB4nFW8iRtLcZiqyITq6lmaONzVilWc1c=",
+          "mirrors": [],
+          "path": "archive-1",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "Adafruit GFX Library",
+              "spec": {
+                "id": 13,
+                "name": "Adafruit GFX Library",
+                "owner": "adafruit",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "1.12.4"
+            },
+            "name": "Adafruit GFX Library"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/38/e6/15253e7474251a03fd529d36172faeb3960860addde32d099f4e05f28911/AdafruitGFXLibrary-1.12.4.tar.gz"
+        },
+        {
+          "hash": "sha256-WmphKSczo2XpOEzmo9Ydvt9xJagUsUJKNBfjE13CUZA=",
+          "mirrors": [],
+          "path": "archive-2",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "ArduinoJson",
+              "spec": {
+                "id": 64,
+                "name": "ArduinoJson",
+                "owner": "bblanchon",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "7.4.3"
+            },
+            "name": "ArduinoJson"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/26/b0/41b27c1a11f4f08e266e0698d06a85e46de5a7c3553fb8a33bde0f8c4790/ArduinoJson-7.4.3.tar.gz"
+        },
+        {
+          "hash": "sha256-103EZoKiqdb9cpWQXmUR3OF3cUFjbzs7Qi5eOVjS1hA=",
+          "mirrors": [],
+          "path": "archive-3",
+          "platformio": {
+            "directory": "libraries/uno",
+            "metadata": {
+              "name": "Unity",
+              "spec": {
+                "id": 13894,
+                "name": "Unity",
+                "owner": "throwtheswitch",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "library",
+              "version": "2.6.1"
+            },
+            "name": "Unity"
+          },
+          "url": "https://dl.registry.platformio.org/libraries/41/fc/ed473e23c0d4373e199e254eff6f16c6b5de23f852719bd7f22fd427e2f7/Unity-2.6.1.tar.gz"
+        },
+        {
+          "hash": "sha256-QjfxziiN7YzhQTZru7vpbm/a6rn2caImonmTj4HBOB0=",
+          "mirrors": [],
+          "path": "archive-4",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "framework-arduino-avr",
+              "spec": {
+                "id": 8039,
+                "name": "framework-arduino-avr",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "5.3.0"
+            },
+            "name": "framework-arduino-avr"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/framework-arduino-avr/739202e-framework-arduino-avr-5.3.0.tar.gz"
+        },
+        {
+          "hash": "sha256-spdKeRVwCwPN754jUdbkB7OJ41MAt0+eC0EeZ0RNj+U=",
+          "mirrors": [],
+          "path": "archive-5",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "tool-avrdude",
+              "spec": {
+                "id": 8147,
+                "name": "tool-avrdude",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "1.60300.200527"
+            },
+            "name": "tool-avrdude"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/tool-avrdude-linux_x86_64/adcab8b-tool-avrdude-linux_x86_64-1.60300.200527.tar.gz"
+        },
+        {
+          "hash": "sha256-XkJMlRSrgwMnohBZk/9E7FBzk/QywDfIlxxrDfSa1Dk=",
+          "mirrors": [],
+          "path": "archive-6",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "tool-cppcheck",
+              "spec": {
+                "id": 8153,
+                "name": "tool-cppcheck",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "1.21100.230717"
+            },
+            "name": "tool-cppcheck"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/tool-cppcheck-linux_x86_64/274d793-tool-cppcheck-linux_x86_64-1.21100.230717.tar.gz"
+        },
+        {
+          "hash": "sha256-5AXeH80zB/qA1iTwKQx80w+7R/Z+E1qfVtfka2uJUxE=",
+          "mirrors": [],
+          "path": "archive-7",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "tool-scons",
+              "spec": {
+                "id": 8192,
+                "name": "tool-scons",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "4.41101.0"
+            },
+            "name": "tool-scons"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/tool-scons/14073c2-tool-scons-4.41101.0.tar.gz"
+        },
+        {
+          "hash": "sha256-Zk8LewihXo1jYrh+L9taTc/VlZ68WxnZOOff9vEvBSQ=",
+          "mirrors": [],
+          "path": "archive-8",
+          "platformio": {
+            "directory": "packages",
+            "metadata": {
+              "name": "toolchain-atmelavr",
+              "spec": {
+                "id": 8203,
+                "name": "toolchain-atmelavr",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "tool",
+              "version": "1.70300.191015"
+            },
+            "name": "toolchain-atmelavr"
+          },
+          "url": "https://github.com/ivankravets/pioreg-ci-mirror/releases/download/toolchain-atmelavr-linux_x86_64/cc65b2c-toolchain-atmelavr-linux_x86_64-1.70300.191015.tar.gz"
+        },
+        {
+          "hash": "sha256-lRTIqpVYnaO+bbgAUTXzKyligyBwlChtMntqLEnFjZ0=",
+          "mirrors": [],
+          "path": "archive-9",
+          "platformio": {
+            "directory": "platforms",
+            "metadata": {
+              "name": "atmelavr",
+              "spec": {
+                "id": 8006,
+                "name": "atmelavr",
+                "owner": "platformio",
+                "requirements": null,
+                "uri": null
+              },
+              "type": "platform",
+              "version": "5.2.0"
+            },
+            "name": "atmelavr"
+          },
+          "url": "https://dl.registry.platformio.org/platforms/7f/e5/97d6bcd93132059614db0d9fdbffe89acc7fb7eaca9adb1dcb4187395162/atmelavr-5.2.0.tar.gz"
+        }
+      ],
+      "selection": {
+        "uno": {
+          "board": "uno",
+          "check_tool": [
+            "cppcheck"
+          ],
+          "debug_tool": null,
+          "framework": [
+            "arduino"
+          ],
+          "lib_compat_mode": "soft",
+          "lib_deps": [
+            "bblanchon/ArduinoJson@7.4.3",
+            "adafruit/Adafruit GFX Library@1.12.4"
+          ],
+          "lib_ignore": [],
+          "lib_ldf_mode": "chain",
+          "platform": "atmelavr@5.2.0",
+          "platform_packages": [],
+          "test_framework": "unity",
+          "upload_protocol": null
+        }
+      }
+    }
+  },
+  "version": 1
+}
