@@ -21,12 +21,12 @@
 stdenvNoCC.mkDerivation {
   pname = "platformio-purifier";
   version = "0.1.0";
-  src = ../.;
+  src = ../..;
   nativeBuildInputs = [ makeWrapper ];
   dontBuild = true;
   installPhase = ''
     mkdir -p "$out/bin" "$out/lib/platformio-purifier"
-    cp -r platformio_purifier nix native "$out/lib/platformio-purifier/"
+    cp -r platformio_purifier nix lib-overlays pkgs native "$out/lib/platformio-purifier/"
     install -m755 bin/platformio-purifier "$out/bin/platformio-purifier"
     for file in realize release; do
       substituteInPlace "$out/lib/platformio-purifier/nix/$file.nix" --replace-fail '@nixpkgs@' '${nixpkgsSrc}' --replace-fail '@purifier@' '${purifierSrc}'

@@ -44,7 +44,7 @@
           meta.description = "Lock native PlatformIO dependencies";
         };
       });
-      lib.platformio-purifier.readLock = import ./nix/read-lock.nix { lib = nixpkgs.lib; };
+      lib.platformio-purifier = import ./lib-overlays/default { lib = nixpkgs.lib; };
       checks = forAll (
         system:
         let
