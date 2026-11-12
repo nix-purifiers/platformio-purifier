@@ -26,6 +26,6 @@ pkgs.lib.makeScope pkgs.newScope (scope: {
       replay = builtins.hashFile "sha256" ../native/replay.py;
     }
   );
-  cli = scope.callPackage ./cli.nix { inherit nixpkgsSrc purifierSrc; };
-  buildPlatformioProject = scope.callPackage ./build-project.nix { };
+  cli = scope.callPackage ../pkgs/platformio-purifier/default.nix { inherit nixpkgsSrc purifierSrc; };
+  buildPlatformioProject = scope.callPackage ../pkgs/build-platformio-project/default.nix { };
 })

@@ -52,7 +52,7 @@ let
         export HOME="$TMPDIR/home" PLATFORMIO_CORE_DIR="$TMPDIR/core"
         export PLATFORMIO_SETTING_ENABLE_TELEMETRY=no PLATFORMIO_DISABLE_UPGRADE_CHECK=true
         mkdir -p "$HOME" "$out"
-        ${core.python.interpreter} ${../native/replay.py} ${core}/bin/.pio-wrapped ${replay} "$out"
+        ${core.python.interpreter} ${../../native/replay.py} ${core}/bin/.pio-wrapped ${replay} "$out"
         # The registry's old bundled GDB crashes with modern libc. Use the explicit
         # all-target Nix debugger provider; the AVR compiler remains registry GCC.
         if [ -f "$out/packages/toolchain-atmelavr/bin/avr-gdb" ]; then

@@ -26,7 +26,7 @@
 }:
 let
   lock = purifier.checkLock (
-    import ./read-lock.nix { inherit lib; } {
+    import ../../lib-overlays/default/read-lock.nix { inherit lib; } {
       inherit src lockFile;
       system = stdenv.hostPlatform.system;
     }
@@ -44,11 +44,11 @@ let
       ]);
   };
   driver = lib.fileset.toSource {
-    root = ../.;
+    root = ../..;
     fileset = lib.fileset.unions [
-      ../platformio_purifier/common.py
-      ../platformio_purifier/layout.py
-      ../native/check.py
+      ../../platformio_purifier/common.py
+      ../../platformio_purifier/layout.py
+      ../../native/check.py
     ];
   };
   project = runCommand "platformio-firmware" { } ''
